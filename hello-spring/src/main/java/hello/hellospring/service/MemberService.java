@@ -8,10 +8,10 @@ import java.util.Optional;
 
 public class MemberService {
 
-  //테스팅 시에, 이렇게 생성자로 하지 않으면, 다른 repository로 testing 해야 하는 불편함 있음
+  // 테스팅 시에, 이렇게 생성자로 하지 않으면, 다른 repository로 testing 해야 하는 불편함 있음
   private final MemberRepository memberRepository;
 
-  public MemberService(MemberRepository memberRepository){
+  public MemberService(MemberRepository memberRepository) {
     this.memberRepository = memberRepository;
   }
 
